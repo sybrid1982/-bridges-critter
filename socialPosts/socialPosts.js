@@ -23,7 +23,7 @@ const socialPosts = {
             }
         ];
         vm.onSubmit = (post) => {
-            vm.posts.push(post);
+            vm.posts.unshift(post);
             vm.isWritingPost=false;
         }
     }
