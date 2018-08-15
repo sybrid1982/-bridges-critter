@@ -1,0 +1,7 @@
+<form ng-submit='$ctrl.onSubmit({ post: $ctrl.post });'>
+    <label>Title</label>
+    <input form-expand='' type='text' placeholder='Title' ng-model='$ctrl.post.title'>
+    <label>Thought</label>
+    <textarea form-expand='' placeholder='Message' ng-model='$ctrl.post.post' rows='10'></textarea>
+    <button>Submit</button>
+</form>

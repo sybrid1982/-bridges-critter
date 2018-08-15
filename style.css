@@ -1,0 +1,89 @@
+body {
+    background-color: #f3f1f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Dosis', sans-serif;
+}
+h1 {
+    color: rgb(3, 169, 244);
+    font-size: 3em;
+    margin-bottom: 0;
+    font-family: 'Homemade Apple'
+}
+social-posts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+social-posts > button {
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8em;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+social-posts > section {
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+social-posts > section > * {
+    width: 90%;
+}
+.postParent {
+    width: 100%;
+}
+post-form {
+    background-color: #B1DDEA;
+    width: 50%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+form > input, form > button, form > textarea {
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+form > textarea {
+    resize: none;
+    overflow: scroll;
+}
+form > label {
+    align-self: flex-start;
+    font-size: 2em;
+    padding: 0;
+    padding-left: 5%;
+    margin: 0;
+}
+form > label:first-child {
+    margin-top: 1em;
+}
+.title {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 0.5em;
+}
+.post {
+    margin: 0;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+}

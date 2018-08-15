@@ -1,0 +1,5 @@
+<post-form ng-if='$ctrl.isWritingPost' on-submit='$ctrl.onSubmit(post);'></post-form>
+<button ng-click='$ctrl.isWritingPost=true;'>New Thought</button>
+<section>
+    <post post="post" ng-repeat='post in $ctrl.posts track by $index'></post>
+</section>
