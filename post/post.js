@@ -4,7 +4,7 @@ const post = {
     bindings: {
         post: '<'
     },
-    templateUrl: 'post.html',
+    templateUrl: 'post/post.html',
 }
 
 angular

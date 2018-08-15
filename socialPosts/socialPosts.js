@@ -1,7 +1,7 @@
 'use strict';
 
 const socialPosts = {
-    templateUrl: `socialPosts.html`,
+    templateUrl: `socialPosts/socialPosts.html`,
     controller: function() {
         const vm = this;
         vm.posts = [

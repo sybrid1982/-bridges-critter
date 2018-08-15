@@ -1,7 +1,7 @@
 'use strict';
 
 const postForm = {
-    templateUrl: 'postForm.html',
+    templateUrl: 'PostForm/postForm.html',
     bindings: {
         onSubmit: '&'
     }
