@@ -8,7 +8,7 @@ const postForm = {
     }
 }
 
-function FormExpand() {
+function expandOnFocus() {
     return {
         restrict: 'A',
         replace: false,
@@ -24,4 +24,4 @@ function FormExpand() {
 }
 
 angular.module('app').component('postForm', postForm);
-angular.module('app').directive("formExpand", FormExpand);
+angular.module('app').directive("expandOnFocus", expandOnFocus);
