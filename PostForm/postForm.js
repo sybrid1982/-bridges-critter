@@ -3,7 +3,8 @@
 const postForm = {
     templateUrl: 'PostForm/postForm.html',
     bindings: {
-        onSubmit: '&'
+        onSubmit: '&',
+        onCancel: '&'
     }
 }
 

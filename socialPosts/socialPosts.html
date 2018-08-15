@@ -1,4 +1,4 @@
-<post-form ng-if='$ctrl.isWritingPost' class='animate-if' on-submit='$ctrl.onSubmit(post);'></post-form>
+<post-form ng-if='$ctrl.isWritingPost' class='animate-if' on-submit='$ctrl.onSubmit(post);' on-cancel="$ctrl.onCancel();"></post-form>
 <button ng-if='!$ctrl.isWritingPost' ng-click='$ctrl.isWritingPost=true;'>New Thought</button>
 <section>
     <post post="post" ng-repeat='post in $ctrl.posts track by $index'></post>

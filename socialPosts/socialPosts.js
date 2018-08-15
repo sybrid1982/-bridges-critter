@@ -26,6 +26,9 @@ const socialPosts = {
             vm.posts.unshift(post);
             vm.isWritingPost=false;
         }
+        vm.onCancel = () => {
+            vm.isWritingPost=false;
+        }
     }
 }
 
